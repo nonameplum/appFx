@@ -42,5 +42,6 @@ public class Controller {
         //dataSource.getColumnWithKey("NAME").setMaxWidth(150);
 
         tableView.setItems(dataSource.getQueryResult());
+        tableView.autosize();
     }
 }

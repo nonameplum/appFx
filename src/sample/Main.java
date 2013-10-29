@@ -8,6 +8,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
+import org.scenicview.ScenicView;
 
 import java.net.URL;
 
@@ -35,6 +36,7 @@ public class Main extends Application {
         });
 
         primaryStage.show();
+        ScenicView.show(root);
     }
 
     public static void main(String[] args) {

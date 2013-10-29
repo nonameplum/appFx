@@ -8,6 +8,7 @@
       <root url="jar://$PROJECT_DIR$/lib/postgresql-9.2-1003.jdbc4.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/sqlite-jdbc-3.7.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/stringtemplate-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ScenicView.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/lib/aquafx-0.1-javadoc.jar!/" />
