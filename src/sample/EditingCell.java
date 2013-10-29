@@ -1,32 +1,35 @@
 package sample;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-
 import javafx.application.Platform;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
-import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.scene.control.ContentDisplay;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyEvent;
-import javafx.scene.input.MouseEvent;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 public class EditingCell extends TableCell<Map, Object> {
+
     private TextField textField;
+    private Insets originalPadding;
+
     public EditingCell() {
     }
+
     @Override
     public void startEdit() {
         super.startEdit();
         if (textField == null) {
             createTextField();
         }
+        if (originalPadding == null) {
+            originalPadding = getPadding();
+        }
+        setPadding(new Insets(0));
         setGraphic(textField);
         setContentDisplay(ContentDisplay.GRAPHIC_ONLY);
         Platform.runLater(new Runnable() {
@@ -37,15 +40,21 @@ public class EditingCell extends TableCell<Map, Object> {
             }
         });
     }
+
     @Override
     public void cancelEdit() {
         super.cancelEdit();
+        setPadding(originalPadding);
+        setGraphic(null);
+        setText(getString());
         setContentDisplay(ContentDisplay.TEXT_ONLY);
         Platform.runLater(() -> getTableView().requestFocus());
     }
+
     @Override
     public void updateItem(Object item, boolean empty) {
         super.updateItem(item, empty);
+
         if (empty) {
             setText(null);
             setGraphic(null);
@@ -54,41 +63,44 @@ public class EditingCell extends TableCell<Map, Object> {
                 if (textField != null) {
                     textField.setText(getString());
                 }
+                setPadding(new Insets(0));
                 setGraphic(textField);
                 setContentDisplay(ContentDisplay.GRAPHIC_ONLY);
             } else {
+                if (originalPadding == null) {
+                    originalPadding = getPadding();
+                }
+                setPadding(originalPadding);
                 setText(getString());
                 setContentDisplay(ContentDisplay.TEXT_ONLY);
             }
         }
     }
+
     private void createTextField() {
         textField = new TextField(getString());
         //textField.setMinWidth(this.getWidth() - this.getGraphicTextGap() * 2);
         textField.setPrefHeight(this.getHeight() - 2);
-        this.setPadding(new Insets(0));
-        textField.setOnKeyPressed(new EventHandler<KeyEvent>() {
-            @Override
-            public void handle(KeyEvent t) {
-                if (t.getCode() == KeyCode.ENTER) {
-                    commitEdit(textField.getText());
-                } else if (t.getCode() == KeyCode.ESCAPE) {
-                    cancelEdit();
-                } else if (t.getCode() == KeyCode.TAB) {
-                    commitEdit(textField.getText());
-                    TableColumn nextColumn = getNextColumn(!t.isShiftDown());
-                    if (nextColumn != null) {
-                        getTableView().edit(getTableRow().getIndex(), nextColumn);
-                    }
+        textField.setOnKeyPressed(t -> {
+            if (t.getCode() == KeyCode.ENTER) {
+                commitEdit(textField.getText());
+            } else if (t.getCode() == KeyCode.ESCAPE) {
+                cancelEdit();
+            } else if (t.getCode() == KeyCode.TAB) {
+                commitEdit(textField.getText());
+                TableColumn nextColumn = getNextColumn(!t.isShiftDown());
+                if (nextColumn != null) {
+                    getTableView().edit(getTableRow().getIndex(), nextColumn);
                 }
             }
         });
     }
+
     private String getString() {
         return getItem() == null ? "" : getItem().toString();
     }
+
     /**
-     *
      * @param forward true gets the column to the right, false the column to the left of the current column
      * @return
      */

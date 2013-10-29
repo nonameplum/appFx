@@ -105,7 +105,7 @@ public class DataSource {
                     public void handle(TableColumn.CellEditEvent cellEditEvent) {
                         String key = ((MapValueFactoryKeys) cellEditEvent.getTableColumn().getCellValueFactory()).getKey().toString();
                         String value = cellEditEvent.getNewValue().toString();
-                        int id = (int) ((LinkedHashMap<String, Object>) cellEditEvent.getRowValue()).get("id");
+                        Integer id = Integer.valueOf( ((LinkedHashMap<String, Object>) cellEditEvent.getRowValue()).get("id").toString() );
                         SqlInterface dao = dbi.open(SqlInterface.class);
                         dao.update(tableName, key, value, id);
                         dao.close();

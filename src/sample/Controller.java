@@ -1,6 +1,7 @@
 package sample;
 
 import javafx.fxml.FXML;
+import javafx.scene.Node;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import org.skife.jdbi.v2.tweak.ConnectionFactory;
@@ -42,6 +43,5 @@ public class Controller {
         //dataSource.getColumnWithKey("NAME").setMaxWidth(150);
 
         tableView.setItems(dataSource.getQueryResult());
-        tableView.autosize();
     }
 }
