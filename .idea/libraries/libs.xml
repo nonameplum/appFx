@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/antlr-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aquafx-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/datafx-core-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jdbi-2.50.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/postgresql-9.2-1003.jdbc4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sqlite-jdbc-3.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/stringtemplate-3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/aquafx-0.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/datafx-core-1.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jdbi-2.50-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sqlite-jdbc-3.7.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/aquafx-0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/datafx-core-1.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jdbi-2.50-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sqlite-jdbc-3.7.2.jar!/" />
+    </SOURCES>
+  </library>
+</component>

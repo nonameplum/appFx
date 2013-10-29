@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3753805085">
+    <data-source source="LOCAL" name="PostgreSQL Data Source" uuid="647f6487-b294-493e-9514-ff41d272494c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost/polink</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfdadfc5dfd9dfdedfcddfd8dfcf</user-password>
+      <default-dialect>postgresql</default-dialect>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Downloads/postgresql-9.2-1003.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
