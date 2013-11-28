@@ -1,5 +1,6 @@
-package sample;
+package appFx;
 
+import appFx.controllers.Controller;
 import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
@@ -8,7 +9,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
-import org.scenicview.ScenicView;
 
 import java.net.URL;
 
@@ -18,7 +18,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         setUserAgentStylesheet(STYLESHEET_MODENA);
 
-        URL location = getClass().getResource("sample.fxml");
+        URL location = getClass().getResource("views/main.fxml");
 
         final FXMLLoader fxmlLoader = new FXMLLoader();
         fxmlLoader.setLocation(location);
@@ -26,17 +26,17 @@ public class Main extends Application {
 
         Parent root = (Parent) fxmlLoader.load(location.openStream());
         primaryStage.setTitle("Application Title");
-        primaryStage.setScene(new Scene(root, 1000, 1000));
+        primaryStage.setScene(new Scene(root, 500, 500));
 
         primaryStage.setOnShown(new EventHandler<WindowEvent>() {
             @Override
             public void handle(WindowEvent windowEvent) {
-                ((Controller) fxmlLoader.getController()).setConfiguration();
+                ((Controller) fxmlLoader.getController()).setConfiguration(primaryStage);
             }
         });
 
         primaryStage.show();
-        ScenicView.show(root);
+        //ScenicView.show(root);
     }
 
     public static void main(String[] args) {

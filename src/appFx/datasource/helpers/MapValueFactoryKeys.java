@@ -1,4 +1,4 @@
-package sample;
+package appFx.datasource.helpers;
 
 import javafx.scene.control.cell.MapValueFactory;
 

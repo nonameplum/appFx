@@ -1,5 +1,10 @@
-package sample;
+package appFx.datasource;
 
+import appFx.datasource.daos.UniversalDAO;
+import appFx.datasource.helpers.EditingCell;
+import appFx.datasource.helpers.MapValueFactoryKeys;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.EventHandler;
@@ -7,17 +12,10 @@ import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.util.Callback;
 import org.skife.jdbi.v2.DBI;
-import org.skife.jdbi.v2.sqlobject.Bind;
-import org.skife.jdbi.v2.sqlobject.SqlQuery;
-import org.skife.jdbi.v2.sqlobject.SqlUpdate;
-import org.skife.jdbi.v2.sqlobject.customizers.Define;
-import org.skife.jdbi.v2.sqlobject.customizers.Mapper;
-import org.skife.jdbi.v2.sqlobject.stringtemplate.UseStringTemplate3StatementLocator;
 import org.skife.jdbi.v2.tweak.ConnectionFactory;
 
 import java.sql.DatabaseMetaData;
 import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -25,22 +23,6 @@ import java.util.List;
 import java.util.Map;
 
 public class DataSource {
-
-    @UseStringTemplate3StatementLocator
-    public interface SqlInterface {
-        @SqlQuery("select * from <table> order by ID")
-        @Mapper(MapMapper.class)
-        public List<Map<String, Object>> sqlQuery(@Define("table") String table);
-
-        @SqlUpdate("update <table> set <property> = :value where id = :id")
-        int update(@Define("table") String table, @Define("property") String property, @Bind("value") String value, @Bind("id") int id);
-
-        @SqlQuery("select * from <table> limit 1")
-        @Mapper(MetaDataMapper.class)
-        public ResultSetMetaData getMetaData(@Define("table") String table);
-
-        public void close();
-    }
 
     private ConnectionFactory connectionFactory;
     private DBI dbi;
@@ -69,7 +51,7 @@ public class DataSource {
     }
 
     public void select() {
-        SqlInterface dao = dbi.open(SqlInterface.class);
+        UniversalDAO dao = dbi.open(UniversalDAO.class);
         List<Map<String, Object>> result = dao.sqlQuery(tableName);
         dao.close();
         this.queryResult = FXCollections.observableList(result);
@@ -97,6 +79,7 @@ public class DataSource {
                 TableColumn tableColumn = new TableColumn();
                 tableColumn.setText(row.keySet().toArray()[i].toString().toUpperCase());
                 tableColumn.setCellValueFactory(new MapValueFactoryKeys(row.keySet().toArray()[i].toString()));
+
                 tableColumn.setCellFactory(cellFactory);
                 tableColumns.add(tableColumn);
 
@@ -105,8 +88,8 @@ public class DataSource {
                     public void handle(TableColumn.CellEditEvent cellEditEvent) {
                         String key = ((MapValueFactoryKeys) cellEditEvent.getTableColumn().getCellValueFactory()).getKey().toString();
                         String value = cellEditEvent.getNewValue().toString();
-                        Integer id = Integer.valueOf( ((LinkedHashMap<String, Object>) cellEditEvent.getRowValue()).get("id").toString() );
-                        SqlInterface dao = dbi.open(SqlInterface.class);
+                        Integer id = Integer.valueOf(((LinkedHashMap<String, Object>) cellEditEvent.getRowValue()).get("id").toString());
+                        UniversalDAO dao = dbi.open(UniversalDAO.class);
                         dao.update(tableName, key, value, id);
                         dao.close();
                         ((LinkedHashMap<String, Object>) cellEditEvent.getTableView().getItems().get(cellEditEvent.getTablePosition().getRow())).put(key, cellEditEvent.getNewValue());
@@ -144,5 +127,9 @@ public class DataSource {
     public void setPrimaryColumnVisible(Boolean primaryColumnVisible) {
         isPrimaryColumnVisible = primaryColumnVisible;
         createColumns(queryResult.get(0));
+    }
+
+    public DBI getDbi() {
+        return dbi;
     }
 }

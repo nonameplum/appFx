@@ -1,12 +1,10 @@
-package sample;
+package appFx.datasource;
 
 import org.skife.jdbi.v2.DBI;
 import org.skife.jdbi.v2.Handle;
 import org.skife.jdbi.v2.tweak.ConnectionFactory;
 
-import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
 
 public class SqlLiteDB {
 
@@ -21,12 +19,7 @@ public class SqlLiteDB {
             e.printStackTrace();
         }
 
-        connectionFactory = new ConnectionFactory() {
-            @Override
-            public Connection openConnection() throws SQLException {
-                return DriverManager.getConnection("jdbc:sqlite:database.db");
-            }
-        };
+        connectionFactory = () -> DriverManager.getConnection("jdbc:sqlite:database.db");
 
         dbi = new DBI(connectionFactory);
         createTable();

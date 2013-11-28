@@ -1,4 +1,4 @@
-package sample;
+package appFx.datasource.helpers;
 
 import javafx.application.Platform;
 import javafx.geometry.Insets;
