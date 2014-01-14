@@ -5,12 +5,12 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="600.0" prefWidth="700.0" style="" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appFx.controllers.Controller">
+<AnchorPane prefHeight="600.0" prefWidth="700.0" style="" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <HBox id="HBox" alignment="CENTER" spacing="5.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
             <children>
-                <Button onAction="#getData" prefHeight="-1.0" prefWidth="-1.0" text="load data" />
-                <Button onAction="#updateSelectedRecord" prefHeight="-1.0" prefWidth="-1.0" text="edit selected record" />
+                <Button fx:id="btnLoadData" onAction="#onLoadData" prefHeight="-1.0" prefWidth="-1.0" text="load data" />
+                <Button fx:id="btnEdit" onAction="#onEdit" prefHeight="-1.0" prefWidth="-1.0" text="edit selected record" />
                 <TextField fx:id="tfSelected" disable="true" promptText="selected" HBox.hgrow="ALWAYS" />
             </children>
         </HBox>

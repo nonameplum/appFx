@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3753805085">
+  <component name="DataSourceManagerImpl" format="xml" hash="727878043">
     <data-source source="LOCAL" name="PostgreSQL Data Source" uuid="647f6487-b294-493e-9514-ff41d272494c">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
@@ -8,10 +8,20 @@
       <jdbc-url>jdbc:postgresql://localhost/polink</jdbc-url>
       <user-name>postgres</user-name>
       <user-password>dfdadfc5dfd9dfdedfcddfd8dfcf</user-password>
-      <default-dialect>postgresql</default-dialect>
       <libraries>
         <library>
           <url>file://$USER_HOME$/Downloads/postgresql-9.2-1003.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="SQLite - database.db" uuid="162ef3c7-dc3c-47fc-9309-1530b9ead525">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/database.db</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$PROJECT_DIR$/lib/sqlite-jdbc-3.7.2.jar</url>
         </library>
       </libraries>
     </data-source>
