@@ -1,31 +1,31 @@
 package appFx.models;
 
-import javafx.beans.property.SimpleIntegerProperty;
-import javafx.beans.property.SimpleStringProperty;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Entity
+@Table(name="something")
 public class Something {
 
-    private SimpleIntegerProperty id;
-    private SimpleStringProperty name;
+    @Id
+    private Integer id;
+    private String name;
 
-    public Something(Integer id, String name) {
-        this.id = new SimpleIntegerProperty(id);
-        this.name = new SimpleStringProperty(name);
+    public Integer getId() {
+        return id;
     }
 
-    public int getId() {
-        return this.id.get();
-    }
-
-    public void setId(int id) {
-        this.id.set(id);
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getName() {
-        return this.name.get();
+        return name;
     }
 
     public void setName(String name) {
-        this.name.set(name);
+        this.name = name;
     }
+
 }

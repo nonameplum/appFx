@@ -4,12 +4,15 @@ import org.skife.jdbi.v2.DBI;
 import org.skife.jdbi.v2.Handle;
 import org.skife.jdbi.v2.tweak.ConnectionFactory;
 
+import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class SqlLiteDB {
 
     public final DBI dbi;
     public final ConnectionFactory connectionFactory;
+    public static String connectionUrl = "jdbc:sqlite:database.db";
 
     public SqlLiteDB() {
         try {
@@ -19,7 +22,7 @@ public class SqlLiteDB {
             e.printStackTrace();
         }
 
-        connectionFactory = () -> DriverManager.getConnection("jdbc:sqlite:database.db");
+        connectionFactory = () -> DriverManager.getConnection(connectionUrl);
 
         dbi = new DBI(connectionFactory);
         createTable();
@@ -42,5 +45,9 @@ public class SqlLiteDB {
             h.execute("insert into something (id, name) values (?, ?)", i, "Name " + i.toString());
         }
         h.close();
+    }
+
+    public Connection getConnection() throws SQLException {
+        return DriverManager.getConnection(connectionUrl);
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="727878043">
+  <component name="DataSourceManagerImpl" format="xml" hash="3969803873">
     <data-source source="LOCAL" name="PostgreSQL Data Source" uuid="647f6487-b294-493e-9514-ff41d272494c">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
@@ -21,7 +21,7 @@
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/database.db</jdbc-url>
       <libraries>
         <library>
-          <url>file://$PROJECT_DIR$/lib/sqlite-jdbc-3.7.2.jar</url>
+          <url>file://$USER_HOME$/Downloads/sqlite-jdbc-3.7.2.jar</url>
         </library>
       </libraries>
     </data-source>
