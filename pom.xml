@@ -75,28 +75,6 @@
                     </execution>
                 </executions>
             </plugin>
-
-            <plugin>
-                <groupId>org.avaje.ebeanorm</groupId>
-                <artifactId>avaje-ebeanorm-mavenenhancer</artifactId>
-                <version>3.2.2</version>
-                <executions>
-                    <execution>
-                        <id>main</id>
-                        <phase>process-classes</phase>
-                        <goals>
-                            <goal>enhance</goal>
-                        </goals>
-                        <configuration>
-                            <packages>appFx.models.**</packages>
-                            <transformArgs>debug=2</transformArgs>
-                            <classSource>${project.build.outputDirectory}</classSource>
-                            <classDestination>${project.build.outputDirectory}</classDestination>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -109,13 +87,48 @@
                     </compilerArguments>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <useSystemClassLoader>false</useSystemClassLoader>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>process-ebean-enhancement</id>
+                        <phase>process-classes</phase>
+                        <configuration>
+                            <tasks>
+                                <property name="compile_classpath" refid="maven.compile.classpath" />
+                                <echo
+                                        message="Ebean enhancing test classes debug level -----------------------------------" />
+                                <echo message="Classpath: ${compile_classpath}" />
+                                <taskdef name="ebeanEnhance" classname="com.avaje.ebean.enhance.ant.AntEnhanceTask"
+                                         classpath="${compile_classpath}" />
+                                <ebeanEnhance classSource="${project.build.outputDirectory}"
+                                              packages="appFx.models.**" transformArgs="debug=1" />
+                            </tasks>
+                            <encoding>UTF-8</encoding>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 
     <repositories>
         <repository>
-            <id>QuickDB</id>
-            <url>http://quickdb.googlecode.com/hg/mavenRepo</url>
+            <id>avaje.org</id>
+            <url>http://www.avaje.org/archiva/repository/internal</url>
         </repository>
     </repositories>
 
