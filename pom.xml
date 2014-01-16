@@ -178,7 +178,7 @@
         <dependency>
             <groupId>org.avaje.ebeanorm</groupId>
             <artifactId>avaje-ebeanorm</artifactId>
-            <version>3.2.1</version>
+            <version>3.2.6-SNAPSHOT</version>
         </dependency>
 
         <dependency>
@@ -198,6 +198,12 @@
             <groupId>commons-lang</groupId>
             <artifactId>commons-lang</artifactId>
             <version>2.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>15.0</version>
         </dependency>
 
     </dependencies>

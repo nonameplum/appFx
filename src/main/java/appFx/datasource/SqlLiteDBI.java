@@ -8,15 +8,16 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class SqlLiteDB {
+public class SqlLiteDBI {
 
-    public final DBI dbi;
-    public final ConnectionFactory connectionFactory;
-    public static String connectionUrl = "jdbc:sqlite:database.db";
+    private final DBI dbi;
+    private final ConnectionFactory connectionFactory;
+    private static String datasourceClassName = "org.sqlite.JDBC";
+    private static String connectionUrl = "jdbc:sqlite:database.db";
 
-    public SqlLiteDB() {
+    public SqlLiteDBI() {
         try {
-            Class.forName("org.sqlite.JDBC");
+            Class.forName(datasourceClassName);
         } catch (ClassNotFoundException e) {
             System.err.println("No JDBC driver");
             e.printStackTrace();
@@ -28,7 +29,7 @@ public class SqlLiteDB {
         createTable();
     }
 
-    public void createTable() {
+    private void createTable() {
         Handle h = dbi.open();
         try {
             h.execute("select * from something");
@@ -39,7 +40,7 @@ public class SqlLiteDB {
         h.close();
     }
 
-    public void createBootstrapData() {
+    private void createBootstrapData() {
         Handle h = dbi.open();
         for (Integer i = 0; i < 100; i++) {
             h.execute("insert into something (id, name) values (?, ?)", i, "Name " + i.toString());
@@ -49,5 +50,17 @@ public class SqlLiteDB {
 
     public Connection getConnection() throws SQLException {
         return DriverManager.getConnection(connectionUrl);
+    }
+
+    public DBI getDbi() {
+        return dbi;
+    }
+
+    public ConnectionFactory getConnectionFactory() {
+        return connectionFactory;
+    }
+
+    public static String getConnectionUrl() {
+        return connectionUrl;
     }
 }

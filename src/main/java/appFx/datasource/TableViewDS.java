@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class DataSource {
+public class TableViewDS {
 
     List<TableColumn<ObservableMap<String, SimpleObjectProperty<Object>>, ?>> tableColumns;
     private ConnectionFactory connectionFactory;
@@ -28,7 +28,7 @@ public class DataSource {
     private DatabaseMetaData databaseMetaData;
     private String tableName;
 
-    public DataSource(ConnectionFactory connectionFactory, String tableName, Boolean createColumns) {
+    public TableViewDS(ConnectionFactory connectionFactory, String tableName, Boolean createColumns) {
         this.connectionFactory = connectionFactory;
         this.dbi = new DBI(this.connectionFactory);
         this.tableName = tableName;

@@ -1,7 +1,7 @@
 package appFx.controllers;
 
-import appFx.datasource.DataSource;
-import appFx.datasource.SqlLiteDB;
+import appFx.datasource.TableViewDS;
+import appFx.datasource.SqlLiteDBI;
 import appFx.datasource.daos.UniversalDAO;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.ObservableMap;
@@ -43,19 +43,20 @@ public class Controller {
     private Button btnEdit;
     @FXMLViewContext
     private ViewContext<Controller> context;
-    private DataSource dataSource;
+    private TableViewDS tableViewDS;
     private PopOver popOver;
 
     @PostConstruct
     public void init() {
+
         tableView.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
         tableView.setEditable(false);
     }
 
     public void onLoadData() {
-        SqlLiteDB sqlLiteDB = (SqlLiteDB) context.getApplicationContext().getRegisteredObject("db");
+        SqlLiteDBI sqlLiteDBI = (SqlLiteDBI) context.getApplicationContext().getRegisteredObject("db");
 
-        dataSource = new DataSource(sqlLiteDB.connectionFactory, "something", null);
+        tableViewDS = new TableViewDS(sqlLiteDBI.getConnectionFactory(), "something", null);
         tableView.getColumns().clear();
         popOver = new PopOver();
 
@@ -109,8 +110,8 @@ public class Controller {
                             grid.setPadding(new Insets(25, 25, 25, 25));
 
                             int i;
-                            for (i = 0; i < dataSource.getTableColumns().size(); i++) {
-                                TableColumn<ObservableMap<String, SimpleObjectProperty<Object>>, ?> tableColumn = dataSource.getTableColumns().get(i);
+                            for (i = 0; i < tableViewDS.getTableColumns().size(); i++) {
+                                TableColumn<ObservableMap<String, SimpleObjectProperty<Object>>, ?> tableColumn = tableViewDS.getTableColumns().get(i);
 
                                 Label label = new Label(tableColumn.getText());
                                 grid.add(label, 0, i);
@@ -128,15 +129,15 @@ public class Controller {
                             btnSave.setOnAction(new EventHandler<ActionEvent>() {
                                 @Override
                                 public void handle(ActionEvent actionEvent) {
-                                    for (int j = 0; j < dataSource.getTableColumns().size(); j++) {
-                                        TableColumn<ObservableMap<String, SimpleObjectProperty<Object>>, ?> tableColumn = dataSource.getTableColumns().get(j);
+                                    for (int j = 0; j < tableViewDS.getTableColumns().size(); j++) {
+                                        TableColumn<ObservableMap<String, SimpleObjectProperty<Object>>, ?> tableColumn = tableViewDS.getTableColumns().get(j);
                                         for (Node node : grid.getChildren()) {
                                             if (node.getId() != null && node.getId().equals(tableColumn.getText().toLowerCase())) {
                                                 String key = tableColumn.getText().toLowerCase();
                                                 String value = ((TextField) node).getText();
                                                 Integer id = Integer.valueOf(tableView.getSelectionModel().getSelectedItem().get("id").getValue().toString());
-                                                UniversalDAO dao = dataSource.getDbi().open(UniversalDAO.class);
-                                                dao.update(dataSource.getTableName(), key, value, id);
+                                                UniversalDAO dao = tableViewDS.getDbi().open(UniversalDAO.class);
+                                                dao.update(tableViewDS.getTableName(), key, value, id);
                                                 dao.close();
                                                 int selectedIndex = tableView.getSelectionModel().getSelectedIndex();
                                                 tableView.getItems().get(selectedIndex).get(key).setValue(value);
@@ -185,10 +186,10 @@ public class Controller {
             return cell;
         };
 
-        dataSource.getColumnWithKey("name").setCellFactory(cellFactory);
+        tableViewDS.getColumnWithKey("name").setCellFactory(cellFactory);
 
-        tableView.getColumns().addAll(dataSource.getTableColumns());
-        tableView.setItems(dataSource.getQueryResult());
+        tableView.getColumns().addAll(tableViewDS.getTableColumns());
+        tableView.setItems(tableViewDS.getQueryResult());
     }
 
     public void onEdit() {
@@ -205,8 +206,8 @@ public class Controller {
             grid.setPadding(new Insets(25, 25, 25, 25));
 
             int i;
-            for (i = 0; i < dataSource.getTableColumns().size(); i++) {
-                TableColumn<ObservableMap<String, SimpleObjectProperty<Object>>, ?> tableColumn = dataSource.getTableColumns().get(i);
+            for (i = 0; i < tableViewDS.getTableColumns().size(); i++) {
+                TableColumn<ObservableMap<String, SimpleObjectProperty<Object>>, ?> tableColumn = tableViewDS.getTableColumns().get(i);
 
                 Label label = new Label(tableColumn.getText());
                 grid.add(label, 0, i);
@@ -224,15 +225,15 @@ public class Controller {
             btnSave.setOnAction(new EventHandler<ActionEvent>() {
                 @Override
                 public void handle(ActionEvent actionEvent) {
-                    for (int j = 0; j < dataSource.getTableColumns().size(); j++) {
-                        TableColumn<ObservableMap<String, SimpleObjectProperty<Object>>, ?> tableColumn = dataSource.getTableColumns().get(j);
+                    for (int j = 0; j < tableViewDS.getTableColumns().size(); j++) {
+                        TableColumn<ObservableMap<String, SimpleObjectProperty<Object>>, ?> tableColumn = tableViewDS.getTableColumns().get(j);
                         for (Node node : grid.getChildren()) {
                             if (node.getId() != null && node.getId().equals(tableColumn.getText().toLowerCase())) {
                                 String key = tableColumn.getText().toLowerCase();
                                 String value = ((TextField) node).getText();
                                 Integer id = Integer.valueOf(tableView.getSelectionModel().getSelectedItem().get("id").getValue().toString());
-                                UniversalDAO dao = dataSource.getDbi().open(UniversalDAO.class);
-                                dao.update(dataSource.getTableName(), key, value, id);
+                                UniversalDAO dao = tableViewDS.getDbi().open(UniversalDAO.class);
+                                dao.update(tableViewDS.getTableName(), key, value, id);
                                 dao.close();
                                 int selectedIndex = tableView.getSelectionModel().getSelectedIndex();
                                 tableView.getItems().get(selectedIndex).get(key).setValue(value);

@@ -1,11 +1,10 @@
 package appFx.controllers;
 
-import appFx.datasource.DataSource;
-import appFx.datasource.SqlLiteDB;
+import appFx.datasource.TableViewDS;
+import appFx.datasource.SqlLiteDBI;
 import appFx.models.Something;
 import com.avaje.ebean.Ebean;
 import com.avaje.ebean.SqlRow;
-import javafx.beans.Observable;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -21,7 +20,6 @@ import org.datafx.controller.context.ViewContext;
 
 import javax.annotation.PostConstruct;
 import java.sql.SQLException;
-import java.util.List;
 
 @FXMLController("/fxml/main.fxml")
 public class TestController {
@@ -35,7 +33,7 @@ public class TestController {
     private Button btnEdit;
     @FXMLViewContext
     private ViewContext<Controller> context;
-    private DataSource dataSource;
+    private TableViewDS tableViewDS;
     private PopOver popOver;
 
     ObservableList<Something> somethingList;
@@ -44,18 +42,11 @@ public class TestController {
     public void init() {
         tableView.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
         tableView.setEditable(false);
+
+        makeEbeanTest();
     }
 
     public void onLoadData() throws SQLException {
-        SqlLiteDB sqlLiteDB = (SqlLiteDB) context.getApplicationContext().getRegisteredObject("db");
-
-        String sql = "select count(*) from something";
-        SqlRow row = Ebean.createSqlQuery(sql).findUnique();
-        System.out.println(row);
-
-        somethingList = FXCollections.observableList(Ebean.find(Something.class).findList());
-        System.out.println(somethingList);
-
         TableColumn idColumn = new TableColumn("ID");
         idColumn.setCellValueFactory(new PropertyValueFactory<Something, Integer>("id"));
         TableColumn nameColumn = new TableColumn("NAME");
@@ -70,6 +61,22 @@ public class TestController {
         Something something = somethingList.get(0);
         something.setName("Test");
         Ebean.update(something);
+    }
+
+    public void makeEbeanTest() {
+        System.out.println("-- EBEAT JAVAFX BEAN PROPERTIES --");
+
+        somethingList = FXCollections.observableList(Ebean.find(Something.class).findList());
+        // Update test
+        Something something = somethingList.get(0);
+        System.out.println(something.getName()); // Print "Ebean test"
+        something.setName("Test");
+        Ebean.update(something);
+        System.out.println(something.getName()); // Value is setted to "Test"
+
+        somethingList = FXCollections.observableList(Ebean.find(Something.class).findList());
+        Something somethingAfterUpdate = somethingList.get(0);
+        System.out.println(somethingAfterUpdate.getName()); // Will print Old Value "Ebean test"
     }
 
 }
