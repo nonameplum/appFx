@@ -5,12 +5,15 @@ import appFx.datasource.SqlLiteDB;
 import appFx.models.Something;
 import com.avaje.ebean.Ebean;
 import com.avaje.ebean.SqlRow;
-import javafx.beans.property.SimpleObjectProperty;
-import javafx.collections.ObservableMap;
+import javafx.beans.Observable;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
+import javafx.scene.control.cell.PropertyValueFactory;
 import org.controlsfx.control.PopOver;
 import org.datafx.controller.FXMLController;
 import org.datafx.controller.context.FXMLViewContext;
@@ -26,14 +29,16 @@ public class TestController {
     @FXML
     private TextField tfSelected;
     @FXML
-    private TableView<ObservableMap<String, SimpleObjectProperty<Object>>> tableView;
-    //private TableView<Something> tableView;
+    //private TableView<ObservableMap<String, SimpleObjectProperty<Object>>> tableView;
+    private TableView<Something> tableView;
     @FXML
     private Button btnEdit;
     @FXMLViewContext
     private ViewContext<Controller> context;
     private DataSource dataSource;
     private PopOver popOver;
+
+    ObservableList<Something> somethingList;
 
     @PostConstruct
     public void init() {
@@ -48,12 +53,23 @@ public class TestController {
         SqlRow row = Ebean.createSqlQuery(sql).findUnique();
         System.out.println(row);
 
-        List<Something> somethingList = Ebean.find(Something.class).findList();
+        somethingList = FXCollections.observableList(Ebean.find(Something.class).findList());
         System.out.println(somethingList);
+
+        TableColumn idColumn = new TableColumn("ID");
+        idColumn.setCellValueFactory(new PropertyValueFactory<Something, Integer>("id"));
+        TableColumn nameColumn = new TableColumn("NAME");
+        nameColumn.setCellValueFactory(new PropertyValueFactory<Something, String>("name"));
+
+        tableView.getColumns().addAll(idColumn, nameColumn);
+        tableView.setItems(FXCollections.observableArrayList(somethingList));
+
     }
 
     public void onEdit() {
-
+        Something something = somethingList.get(0);
+        something.setName("Test");
+        Ebean.update(something);
     }
 
 }

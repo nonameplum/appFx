@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/appFx/models/SimpleIntegerPropertyConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/appFx/models/SimpleStringPropertyConverter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.db" afterPath="$PROJECT_DIR$/database.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_avaje_ebeanorm_avaje_ebeanorm_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_avaje_ebeanorm_avaje_ebeanorm_3_2_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/appFx/models/Something.java" afterPath="$PROJECT_DIR$/src/main/java/appFx/models/Something.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/appFx/controllers/TestController.java" afterPath="$PROJECT_DIR$/src/main/java/appFx/controllers/TestController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ebean.properties" afterPath="$PROJECT_DIR$/src/main/resources/ebean.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -79,11 +83,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="TestController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/appFx/controllers/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="0" selection-start="4053" selection-end="5512" vertical-scroll-proportion="0.2020202" vertical-offset="1350" max-vertical-offset="3195">
+            <state line="67" column="0" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="900">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ebean.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/ebean.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="18" selection-start="2904" selection-end="2904" vertical-scroll-proportion="-29.538462" vertical-offset="642" max-vertical-offset="1500">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleIntegerPropertyConverter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/appFx/models/SimpleIntegerPropertyConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Something.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/appFx/models/Something.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="25" selection-start="745" selection-end="745" vertical-scroll-proportion="0.73282444" vertical-offset="0" max-vertical-offset="655">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleStringPropertyConverter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/appFx/models/SimpleStringPropertyConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,10 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/MapValueFactoryKeys.java" />
-        <option value="$PROJECT_DIR$/src/sample/MapMapper.java" />
-        <option value="$PROJECT_DIR$/src/sample/MetaDataMapper.java" />
-        <option value="db-console:/937b43a5/647f6487-b294-493e-9514-ff41d272494c/" />
         <option value="db-console:/937b43a5/bdb31c21-d487-4730-a61f-0ee1b5a493a8/" />
         <option value="db-console:/937b43a5/17cacb34-fca9-494b-85b2-24330c0ab9d2/" />
         <option value="dbtable:/937b43a5/3eb35174-cd05-404f-b5ca-7851481602da/..something" />
@@ -149,13 +189,18 @@
         <option value="$PROJECT_DIR$/src/main/java/appFx/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/appFx/datasource/SqlLiteDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/appFx/controllers/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/controllers/TestController.java" />
-        <option value="db-console:/937b43a5/162ef3c7-dc3c-47fc-9309-1530b9ead525/" />
         <option value="$PROJECT_DIR$/sqlite-create.sql" />
         <option value="$PROJECT_DIR$/sqlite-drop.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/models/Something.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/ebean.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/appFx/models/SimpleStringConverter.java" />
+        <option value="db-console:/937b43a5/162ef3c7-dc3c-47fc-9309-1530b9ead525/" />
+        <option value="$PROJECT_DIR$/src/main/java/appFx/models/SimpleIntegerPropertyType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/appFx/models/SimpleStringPropertyType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/appFx/models/SimpleStringPropertyConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/appFx/models/SimpleIntegerPropertyConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ebean.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/appFx/controllers/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/appFx/models/Something.java" />
       </list>
     </option>
   </component>
@@ -297,7 +342,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -482,6 +526,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="datasource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appFx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appFx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appFx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -498,6 +576,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -508,7 +587,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/sqlite-jdbc-3.7.2.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../avaje-ebeanorm/target/avaje-ebeanorm-3.2.6-SNAPSHOT-sources.jar!/" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
@@ -537,15 +616,15 @@
       <recent name="C:\Users\Lukasz\IdeaProjects\appFx\src\main\java" />
       <recent name="C:\Users\Lukasz\IdeaProjects\appFx\src\main\java\appFx" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.avaje.ebean.config.dbplatform" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lukasz\IdeaProjects\appFx\src\main\resources\styles" />
       <recent name="C:\Users\Lukasz\IdeaProjects\appFx\src\main\resources\fxml" />
       <recent name="C:\Users\Lukasz\IdeaProjects\appFx\src\main\java\appFx\controllers" />
       <recent name="C:\Users\Lukasz\IdeaProjects\appFx\lib" />
       <recent name="C:\Users\Lukasz\IdeaProjects\appFx\src\appFx\views" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.avaje.ebean.config.dbplatform" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -716,6 +795,10 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -734,10 +817,6 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
@@ -788,6 +867,27 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -805,27 +905,6 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application">
@@ -851,7 +930,13 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -969,7 +1054,10 @@
       <workItem from="1389797675837" duration="154000" />
       <workItem from="1389798063753" duration="1008000" />
       <workItem from="1389800644645" duration="2059000" />
-      <workItem from="1389802732614" duration="79000" />
+      <workItem from="1389802732614" duration="392000" />
+      <workItem from="1389807242699" duration="260000" />
+      <workItem from="1389807518945" duration="12265000" />
+      <workItem from="1389855900372" duration="3046000" />
     </task>
     <task id="LOCAL-00001" summary="First commit.">
       <created>1382719910830</created>
@@ -999,11 +1087,15 @@
       <created>1389795257241</created>
       <updated>1389795257241</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ant enhancement - Ebean.">
+      <created>1389802840917</created>
+      <updated>1389802840917</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192655000" />
+    <option name="totallyTimeSpent" value="208539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1014,27 +1106,27 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27902022" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2494432" sideWeight="0.6647982" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19861555" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24920128" sideWeight="0.6647982" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26263738" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25164837" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31798247" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31758243" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18317358" sideWeight="0.7907489" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17838125" sideWeight="0.6647982" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1544196" sideWeight="0.6647982" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16613418" sideWeight="0.7907489" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31868133" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19275825" sideWeight="0.7907489" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31758243" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="745" y="400" width="1083" height="558" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26923078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3802198" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.6647982" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1062,7 +1154,8 @@
     <MESSAGE value="Added Edit Form.&#10;" />
     <MESSAGE value="Change project to maven." />
     <MESSAGE value="Ebean framework as app ORM." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ebean framework as app ORM." />
+    <MESSAGE value="Ant enhancement - Ebean." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ant enhancement - Ebean." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1072,63 +1165,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="0" selection-start="3749" selection-end="3749" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/javax/swing/table/TableColumn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="3217" selection-end="3217" vertical-scroll-proportion="0.6258865" vertical-offset="607" max-vertical-offset="11655" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="17" selection-start="3026" selection-end="3026" vertical-scroll-proportion="1.3720931" vertical-offset="0" max-vertical-offset="22020" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/scene/control/cell/MapValueFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.11627907" vertical-offset="0" max-vertical-offset="645" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/scene/input/MouseEvent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="0.10402219" vertical-offset="0" max-vertical-offset="1755" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/Override.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="18" selection-start="972" selection-end="972" vertical-scroll-proportion="0.5517711" vertical-offset="0" max-vertical-offset="734" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/scene/control/TableCell.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="27" selection-start="4186" selection-end="4196" vertical-scroll-proportion="0.6822034" vertical-offset="702" max-vertical-offset="1410" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/scene/control/Button.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="163" selection-end="163" vertical-scroll-proportion="0.10217984" vertical-offset="0" max-vertical-offset="734" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/scene/Node.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="268" column="44" selection-start="12349" selection-end="12349" vertical-scroll-proportion="0.33287102" vertical-offset="3765" max-vertical-offset="22140" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/com/sun/glass/ui/win/WinApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="4118" selection-end="4118" vertical-scroll-proportion="0.8686131" vertical-offset="815" max-vertical-offset="1500" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/event/Event.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="23" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.7357595" vertical-offset="0" max-vertical-offset="632" />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/stage/PopupWindow.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="28" selection-start="170" selection-end="170" vertical-scroll-proportion="0.10387812" vertical-offset="0" max-vertical-offset="3015" />
@@ -1281,28 +1317,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/appFx/datasource/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="37" selection-start="2646" selection-end="2646" vertical-scroll-proportion="0.0" vertical-offset="379" max-vertical-offset="1305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/937b43a5/162ef3c7-dc3c-47fc-9309-1530b9ead525/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/models/Something.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="118" selection-end="118" vertical-scroll-proportion="0.18604651" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
+        <state line="68" column="37" selection-start="2646" selection-end="2646" vertical-scroll-proportion="0.0" vertical-offset="379" max-vertical-offset="1305" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/appFx/controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="100" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.34018987" vertical-offset="610" max-vertical-offset="3780">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1314,33 +1336,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/fxml/FXMLLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="427" column="20" selection-start="22972" selection-end="22972" vertical-scroll-proportion="0.3322785" vertical-offset="6180" max-vertical-offset="8940" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/appFx/datasource/SqlLiteDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="629" selection-end="629" vertical-scroll-proportion="0.24031007" vertical-offset="100" max-vertical-offset="795">
+        <state line="23" column="0" selection-start="629" selection-end="629" vertical-scroll-proportion="0.24031007" vertical-offset="100" max-vertical-offset="795" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/avaje/ebeanorm/avaje-ebeanorm/3.2.1/avaje-ebeanorm-3.2.1.jar!/com/avaje/ebeaninternal/server/core/DefaultServerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="2975" selection-end="2975" vertical-scroll-proportion="0.88309354" vertical-offset="304" max-vertical-offset="885" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/avaje/ebeanorm/avaje-ebeanorm/3.2.1/avaje-ebeanorm-3.2.1.jar!/com/avaje/ebeaninternal/server/deploy/BeanEmbeddedMetaFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="0.24280575" vertical-offset="0" max-vertical-offset="556" />
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/937b43a5/162ef3c7-dc3c-47fc-9309-1530b9ead525/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/avaje/ebeanorm/avaje-ebeanorm/3.2.1/avaje-ebeanorm-3.2.1.jar!/com/avaje/ebean/Ebean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="23" selection-start="1442" selection-end="1442" vertical-scroll-proportion="-8.4" vertical-offset="285" max-vertical-offset="2175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="0" selection-start="4522" selection-end="4522" vertical-scroll-proportion="0.4883721" vertical-offset="1305" max-vertical-offset="3180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/avaje/ebeanorm/avaje-ebeanorm/3.2.1/avaje-ebeanorm-3.2.1.jar!/com/avaje/ebean/config/ScalarTypeConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="21" selection-start="140" selection-end="140" vertical-scroll-proportion="0.091093116" vertical-offset="0" max-vertical-offset="494" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="18" selection-start="972" selection-end="972" vertical-scroll-proportion="0.4571106" vertical-offset="0" max-vertical-offset="886">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/avaje/ebeanorm/avaje-ebeanorm/3.2.1/avaje-ebeanorm-3.2.1.jar!/com/avaje/ebeaninternal/server/type/ScalarType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/sql/Types.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="32" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.33295712" vertical-offset="275" max-vertical-offset="4875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../avaje-ebeanorm/target/avaje-ebeanorm-3.2.6-SNAPSHOT-sources.jar!/com/avaje/ebeaninternal/server/type/ScalarType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="7" selection-start="1800" selection-end="1855" vertical-scroll-proportion="0.4006772" vertical-offset="410" max-vertical-offset="2745">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/fxml/FXMLLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="427" column="20" selection-start="22972" selection-end="22972" vertical-scroll-proportion="0.3320158" vertical-offset="6222" max-vertical-offset="8940">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ebean.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="29" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.76744187" vertical-offset="0" max-vertical-offset="1410" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/controllers/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.55813956" vertical-offset="60" max-vertical-offset="705">
+        <state line="94" column="18" selection-start="2904" selection-end="2904" vertical-scroll-proportion="-29.538462" vertical-offset="642" max-vertical-offset="1500">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$PROJECT_DIR$/../avaje-ebeanorm/target/avaje-ebeanorm-3.2.6-SNAPSHOT-sources.jar!/com/avaje/ebean/EbeanServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="0" selection-start="4053" selection-end="5512" vertical-scroll-proportion="0.2020202" vertical-offset="1350" max-vertical-offset="3195">
+        <state line="824" column="14" selection-start="25588" selection-end="25588" vertical-scroll-proportion="0.33282444" vertical-offset="11962" max-vertical-offset="17205">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../avaje-ebeanorm/target/avaje-ebeanorm-3.2.6-SNAPSHOT-sources.jar!/com/avaje/ebean/Ebean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="495" column="36" selection-start="16141" selection-end="16141" vertical-scroll-proportion="0.3557252" vertical-offset="6922" max-vertical-offset="20280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/controllers/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="0" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/models/SimpleIntegerPropertyConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/models/SimpleStringPropertyConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/models/Something.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="25" selection-start="745" selection-end="745" vertical-scroll-proportion="0.73282444" vertical-offset="0" max-vertical-offset="655">
           <folding />
         </state>
       </provider>

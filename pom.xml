@@ -101,18 +101,17 @@
                 <artifactId>maven-antrun-plugin</artifactId>
                 <executions>
                     <execution>
-                        <id>process-ebean-enhancement</id>
-                        <phase>process-classes</phase>
+                        <id>compile</id>
+                        <phase>compile</phase>
                         <configuration>
                             <tasks>
                                 <property name="compile_classpath" refid="maven.compile.classpath" />
-                                <echo
-                                        message="Ebean enhancing test classes debug level -----------------------------------" />
-                                <echo message="Classpath: ${compile_classpath}" />
-                                <taskdef name="ebeanEnhance" classname="com.avaje.ebean.enhance.ant.AntEnhanceTask"
+                                <echo message="compile classpath: ${compile_classpath}" />
+                                <taskdef name="ebeanEnhance"
+                                         classname="com.avaje.ebean.enhance.ant.AntEnhanceTask"
                                          classpath="${compile_classpath}" />
                                 <ebeanEnhance classSource="${project.build.outputDirectory}"
-                                              packages="appFx.models.**" transformArgs="debug=1" />
+                                              packages="appFx.**" transformArgs="debug=1" />
                             </tasks>
                             <encoding>UTF-8</encoding>
                         </configuration>
