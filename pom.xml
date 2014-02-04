@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-	http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>plum</groupId>
     <artifactId>appFx</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-
     <name>appFx</name>
-    <description>Simple app</description>
-
+	
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <mainClass>plum.appFx.Main</mainClass>
+        <mainClass>appFx.Main</mainClass>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>		
     </properties>
 
-    <organization>
-        <!-- Used as the 'Vendor' for JNLP generation -->
-        <name>None organization</name>
-    </organization>
-
     <build>
+        <defaultGoal>clean package</defaultGoal>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
                 <version>2.6</version>
                 <executions>
@@ -51,8 +43,37 @@
                 <version>1.2.1</version>
                 <executions>
                     <execution>
-                        <id>unpack-dependencies</id>
-
+                        <id>package-jar</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>${env.JAVA_HOME}/bin/javafxpackager</executable>
+                            <arguments>
+                                <argument>-createjar</argument>
+                                <argument>-nocss2bin</argument>
+                                <argument>-appclass</argument>
+                                <argument>${mainClass}</argument>
+                                <argument>-srcdir</argument>
+                                <argument>${project.build.directory}/classes</argument>
+                                <argument>-outdir</argument>
+                                <argument>${project.build.directory}</argument>
+                                <argument>-outfile</argument>
+                                <argument>${project.artifactId}-app</argument>
+                                <argument>-v</argument>
+                            </arguments>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>			
+            <!--<plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <executions>
+                    <execution>
+                        <id>package-jar</id>
                         <phase>package</phase>
                         <goals>
                             <goal>exec</goal>
@@ -69,13 +90,14 @@
                                 <argument>-outdir</argument>
                                 <argument>${project.build.directory}</argument>
                                 <argument>-outfile</argument>
-                                <argument>${project.build.finalName}.jar</argument>
+                                <argument>${project.artifactId}-app</argument>
+                                <argument>-v</argument>
                             </arguments>
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
+            </plugin>-->
+            <!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
@@ -94,7 +116,7 @@
                 <configuration>
                     <useSystemClassLoader>false</useSystemClassLoader>
                 </configuration>
-            </plugin>
+            </plugin>-->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -105,13 +127,13 @@
                         <phase>compile</phase>
                         <configuration>
                             <tasks>
-                                <property name="compile_classpath" refid="maven.compile.classpath" />
-                                <echo message="compile classpath: ${compile_classpath}" />
+                                <property name="compile_classpath" refid="maven.compile.classpath"/>
+                                <echo message="compile classpath: ${compile_classpath}"/>
                                 <taskdef name="ebeanEnhance"
                                          classname="com.avaje.ebean.enhance.ant.AntEnhanceTask"
-                                         classpath="${compile_classpath}" />
+                                         classpath="${compile_classpath}"/>
                                 <ebeanEnhance classSource="${project.build.outputDirectory}"
-                                              packages="appFx.**" transformArgs="debug=1" />
+                                              packages="appFx.**" transformArgs="debug=1"/>
                             </tasks>
                             <encoding>UTF-8</encoding>
                         </configuration>
@@ -132,11 +154,16 @@
     </repositories>
 
     <dependencies>
-
         <dependency>
             <groupId>org.xerial</groupId>
             <artifactId>sqlite-jdbc</artifactId>
-            <version>3.7.15-M1</version>
+            <version>3.7.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.firebirdsql.jdbc</groupId>
+            <artifactId>jaybird-jdk18</artifactId>
+            <version>2.2.4</version>
         </dependency>
 
         <dependency>
@@ -193,6 +220,18 @@
             <version>8.0.5-SNAPSHOT</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.j256.ormlite</groupId>
+            <artifactId>ormlite-core</artifactId>
+            <version>4.48</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.j256.ormlite</groupId>
+            <artifactId>ormlite-jdbc</artifactId>
+            <version>4.48</version>
+        </dependency>
+
         <!-- Apache Commons -->
         <dependency>
             <groupId>commons-lang</groupId>
@@ -205,8 +244,5 @@
             <artifactId>guava</artifactId>
             <version>15.0</version>
         </dependency>
-
     </dependencies>
-
-
 </project>

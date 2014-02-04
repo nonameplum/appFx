@@ -1,5 +1,7 @@
 package appFx;
 
+import appFx.controllers.Controller;
+import appFx.controllers.OrmLiteController;
 import appFx.controllers.TestController;
 import appFx.datasource.SqlLiteDBI;
 import javafx.application.Application;
@@ -19,7 +21,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         setUserAgentStylesheet(STYLESHEET_MODENA);
 
-        ViewContext<TestController> viewContext = ViewFactory.getInstance().createByController(TestController.class);
+        ViewContext<OrmLiteController> viewContext = ViewFactory.getInstance().createByController(OrmLiteController.class);
         viewContext.getApplicationContext().register("db", new SqlLiteDBI());
 
         primaryStage.setTitle("DataFX");

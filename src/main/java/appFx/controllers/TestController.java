@@ -1,10 +1,8 @@
 package appFx.controllers;
 
 import appFx.datasource.TableViewDS;
-import appFx.datasource.SqlLiteDBI;
 import appFx.models.Something;
 import com.avaje.ebean.Ebean;
-import com.avaje.ebean.SqlRow;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -20,6 +18,8 @@ import org.datafx.controller.context.ViewContext;
 
 import javax.annotation.PostConstruct;
 import java.sql.SQLException;
+import java.util.Arrays;
+import java.util.HashSet;
 
 @FXMLController("/fxml/main.fxml")
 public class TestController {
@@ -43,10 +43,13 @@ public class TestController {
         tableView.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
         tableView.setEditable(false);
 
-        makeEbeanTest();
+        //makeEbeanTest();
     }
 
     public void onLoadData() throws SQLException {
+        somethingList = FXCollections.observableList(Ebean.find(Something.class).findList());
+        tableView.getColumns().clear();
+
         TableColumn idColumn = new TableColumn("ID");
         idColumn.setCellValueFactory(new PropertyValueFactory<Something, Integer>("id"));
         TableColumn nameColumn = new TableColumn("NAME");
@@ -54,13 +57,16 @@ public class TestController {
 
         tableView.getColumns().addAll(idColumn, nameColumn);
         tableView.setItems(FXCollections.observableArrayList(somethingList));
-
     }
 
+    private Integer iter = 0;
+
     public void onEdit() {
+        iter++;
         Something something = somethingList.get(0);
-        something.setName("Test");
+        something.setName("Test " + iter.toString());
         Ebean.update(something);
+        Ebean.update(something, new HashSet<String>(Arrays.asList("name")));
     }
 
     public void makeEbeanTest() {
@@ -71,7 +77,7 @@ public class TestController {
         Something something = somethingList.get(0);
         System.out.println(something.getName()); // Print "Ebean test"
         something.setName("Test");
-        Ebean.update(something);
+        Ebean.update(something, new HashSet<String>(Arrays.asList("id", "name")));
         System.out.println(something.getName()); // Value is setted to "Test"
 
         somethingList = FXCollections.observableList(Ebean.find(Something.class).findList());

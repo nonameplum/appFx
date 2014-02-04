@@ -11,7 +11,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.xerial:sqlite-jdbc:3.7.15-M1" level="project" />
+    <orderEntry type="library" name="jaybird-2.2.4-javadoc" level="project" />
+    <orderEntry type="library" name="Maven: org.xerial:sqlite-jdbc:3.7.2" level="project" />
+    <orderEntry type="library" name="Maven: org.firebirdsql.jdbc:jaybird-jdk18:2.2.4" level="project" />
     <orderEntry type="library" name="Maven: org.antlr:stringtemplate:3.0" level="project" />
     <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
     <orderEntry type="library" name="Maven: org.javafxdata:datafx-controller:2.0" level="project" />
@@ -26,6 +28,8 @@
     <orderEntry type="library" name="Maven: org.avaje.ebeanorm:avaje-ebeanorm:3.2.6-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.avaje.ebeanorm:avaje-ebeanorm-agent:3.2.2" level="project" />
     <orderEntry type="library" name="Maven: org.controlsfx:controlsfx:8.0.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.j256.ormlite:ormlite-core:4.48" level="project" />
+    <orderEntry type="library" name="Maven: com.j256.ormlite:ormlite-jdbc:4.48" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:15.0" level="project" />
   </component>
