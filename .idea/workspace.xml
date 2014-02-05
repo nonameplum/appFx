@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_j256_ormlite_ormlite_core_4_48.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_j256_ormlite_ormlite_jdbc_4_48.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_firebirdsql_jdbc_jaybird_jdk18_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/appFx/controllers/OrmLiteController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/appFx/models/SimpleIntegerPropertyPresister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/appFx/models/SimpleStringPropertyPresister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/appFx/models/SomethingOrmLite.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/appFx/models/SomethingPojo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/appFx/models/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jaybird_2_2_4_javadoc.xml" />
-      <change type="DELETED" beforePath="C:\Users\Lukasz\IdeaProjects\appFx\.idea\libraries\Maven__org_avaje_ebeanorm_avaje_ebeanorm_3_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lukasz\IdeaProjects\appFx\src\main\main.fxml" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Lukasz\IdeaProjects\appFx\.idea\libraries\Maven__org_xerial_sqlite_jdbc_3_7_15_M1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_7_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.db" afterPath="$PROJECT_DIR$/database.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/appFx/Main.java" afterPath="$PROJECT_DIR$/src/main/java/appFx/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/appFx/datasource/SqlLiteDBI.java" afterPath="$PROJECT_DIR$/src/main/java/appFx/datasource/SqlLiteDBI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/appFx/controllers/TestController.java" afterPath="$PROJECT_DIR$/src/main/java/appFx/controllers/TestController.java" />
+    <list default="true" id="9b222bfc-80c8-417b-8e66-906e796953e3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_3_1100_jdbc41.xml" />
+      <change type="DELETED" beforePath="C:\Users\Lukasz\IdeaProjects\appFx\.idea\artifacts\JavaFXApp.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lukasz\IdeaProjects\appFx\.idea\dataSources.ids" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lukasz\IdeaProjects\appFx\.idea\dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lukasz\IdeaProjects\appFx\.idea\inspectionProfiles\Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lukasz\IdeaProjects\appFx\.idea\inspectionProfiles\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lukasz\IdeaProjects\appFx\.idea\libraries\Maven__org_avaje_ebeanorm_avaje_ebeanorm_3_2_6_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lukasz\IdeaProjects\appFx\.idea\libraries\jaybird_2_2_4_javadoc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lukasz\IdeaProjects\appFx\.idea\uiDesigner.xml" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Lukasz\IdeaProjects\appFx\.idea\libraries\Maven__org_controlsfx_controlsfx_8_0_5_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_controlsfx_controlsfx_8_0_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/appFx/controllers/OrmLiteController.java" afterPath="$PROJECT_DIR$/src/main/java/appFx/controllers/OrmLiteController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appFx.iml" afterPath="$PROJECT_DIR$/appFx.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <ignored path="JavaFxApplication.iws" />
+    <ignored path="appFx.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +29,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="Commander">
-    <leftPanel />
-    <rightPanel />
-    <splitter proportion="0.5" />
-  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -84,39 +73,19 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/appFx/datasource/SqlLiteDBI.java" line="18" class="appFx.datasource.SqlLiteDBI" package="appFx.datasource">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
-  <component name="Ebean Action Component">
-    <setting name="isActivated" value="true" />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="JavaFxApplication" />
+    <favorites_list name="appFx" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/appFx/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="18" selection-start="6866" selection-end="6866" vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="3810">
+            <state line="13" column="13" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -125,7 +94,18 @@
       <file leaf-file-name="OrmLiteController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/appFx/controllers/OrmLiteController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="0" selection-start="2006" selection-end="2006" vertical-scroll-proportion="-0.45598194" vertical-offset="854" max-vertical-offset="1740">
+            <state line="64" column="73" selection-start="2245" selection-end="2245" vertical-scroll-proportion="0.3326923" vertical-offset="337" max-vertical-offset="1815">
+              <folding>
+                <marker date="1391606405581" expanded="true" signature="2484:2509" placeholder="select * fro..KONTRAHENCI..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseDaoImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-core/4.48/ormlite-core-4.48-sources.jar!/com/j256/ormlite/dao/BaseDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="539" column="0" selection-start="17971" selection-end="17971" vertical-scroll-proportion="0.0" vertical-offset="7357" max-vertical-offset="14490">
               <folding />
             </state>
           </provider>
@@ -141,11 +121,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitLogSettings">
-    <option name="myDateState">
-      <MyDateState />
-    </option>
-  </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
@@ -156,57 +131,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/appFx/DataSource.java" />
-        <option value="$PROJECT_DIR$/src/appFx/controllers/datafxController.java" />
-        <option value="$PROJECT_DIR$/src/appFx/views/main.fxml" />
-        <option value="$PROJECT_DIR$/src/appFx/datasource/mappers/MapMapper.java" />
-        <option value="$PROJECT_DIR$/src/appFx/datasource/daos/UniversalDAO.java" />
-        <option value="$PROJECT_DIR$/src/appFx/controllers/DataFxController.java" />
-        <option value="$PROJECT_DIR$/src/appFx/datasource/helpers/EditingCell.java" />
-        <option value="$PROJECT_DIR$/src/s.java" />
-        <option value="$PROJECT_DIR$/src/appFx/datasource/jk.java" />
-        <option value="$PROJECT_DIR$/src/appFx/Main.java" />
-        <option value="$PROJECT_DIR$/src/appFx/ebean/Something.java" />
-        <option value="$PROJECT_DIR$/src/appFx/datasource/mappers/SomethingMapper.java" />
-        <option value="$PROJECT_DIR$/src/appFx/views/popup.fxml" />
-        <option value="$PROJECT_DIR$/src/appFx/stylesheets/popup.css" />
-        <option value="$PROJECT_DIR$/src/appFx/popcontent.css" />
-        <option value="$PROJECT_DIR$/src/appFx/controllers/EbeanController.java" />
-        <option value="$PROJECT_DIR$/src/appFx/datasource/DataSource.java" />
-        <option value="$PROJECT_DIR$/src/appFx/views/popcontent.fxml" />
-        <option value="$PROJECT_DIR$/src/appFx/controllers/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/popcontent.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/datasource/mappers/MapMapper.java" />
-        <option value="dbtable:/937b43a5/162ef3c7-dc3c-47fc-9309-1530b9ead525/..something" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/datasource/daos/SomethingDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/datasource/mappers/SomethingMapper.java" />
-        <option value="$PROJECT_DIR$/sqlite-create.sql" />
-        <option value="$PROJECT_DIR$/sqlite-drop.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/models/SimpleStringConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/models/SimpleIntegerPropertyType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/models/SimpleStringPropertyType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/models/SimpleStringPropertyConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/ebean.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/models/SimpleIntegerPropertyConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/datasource/SqlLiteDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/controllers/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/datasource/DataSource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/datasource/TableViewDS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/models/Something.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/controllers/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/datasource/SqlLiteDBI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/models/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/datasource/mappers/UniversalMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/models/SomethingOrmLite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/models/SomethingTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/models/SimpleIntegerPropertyPresister.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/models/SimpleStringPropertyPresister.java" />
-        <option value="db-console:/937b43a5/162ef3c7-dc3c-47fc-9309-1530b9ead525/" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/models/SomethingPojo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/datasource/daos/UniversalDAO.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/appFx/controllers/OrmLiteController.java" />
       </list>
     </option>
   </component>
@@ -219,34 +144,6 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="appFx" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="appFx" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -254,92 +151,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android Lint</id>
-          </State>
-          <State>
-            <id>Class structure</id>
-          </State>
-          <State>
-            <id>Code maturity issues</id>
-          </State>
-          <State>
-            <id>Code style issues</id>
-          </State>
-          <State>
-            <id>Code style issuesJavaScript</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>Google Web Toolkit issues</id>
-          </State>
-          <State>
-            <id>Groovy</id>
-          </State>
-          <State>
-            <id>JPA issues</id>
-          </State>
-          <State>
-            <id>Java language level issues</id>
-          </State>
-          <State>
-            <id>Java language level migration aids</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>Javadoc issues</id>
-          </State>
-          <State>
-            <id>Language Injection</id>
-          </State>
-          <State>
-            <id>Modularization issues</id>
-          </State>
-          <State>
-            <id>Numeric issues</id>
-          </State>
-          <State>
-            <id>Performance issues</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsJavaScript</id>
-          </State>
-          <State>
-            <id>Properties Files</id>
-          </State>
-          <State>
-            <id>Spring Model</id>
-          </State>
-          <State>
-            <id>TestNG</id>
-          </State>
-          <State>
-            <id>Threading issues</id>
-          </State>
-          <State>
-            <id>Threading issuesGroovy</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Abstraction issues</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -352,7 +164,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -367,17 +179,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appFx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -385,24 +187,6 @@
               <option name="myItemId" value="appFx" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appFx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.firebirdsql.jdbc:jaybird-jdk18:2.2.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -443,36 +227,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appFx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appFx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fxml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -499,100 +253,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="appFx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appFx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appFx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appFx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appFx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appFx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appFx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datasource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appFx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appFx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appFx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datasource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="daos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -628,6 +288,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -637,53 +298,49 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Jaybird-2.2.4-JDK_1.8/jaybird-full-2.2.4.jar!/" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="FullScreen" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.35689455" />
-    <property name="SearchEverywhereHistory" value="jdk&#10;terminal&#10;maven&#10;sqld&#10;controller&#10;somethi&#10;plugins&#10;maven arti" />
-    <property name="options.lastSelected" value="project.propGUI" />
+    <property name="options.lastSelected" value="database.main" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="appFx.models" />
-      <recent name="appFx.controllers" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lukasz\IdeaProjects\appFx\src\main\java\appFx\controllers" />
-      <recent name="C:\Users\Lukasz\IdeaProjects\appFx\src\main\resources\fxml" />
-      <recent name="C:\Users\Lukasz\IdeaProjects\appFx\src" />
-      <recent name="C:\Users\Lukasz\IdeaProjects\appFx\src\main" />
-      <recent name="C:\Users\Lukasz\IdeaProjects\appFx\src\main\java" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Lukasz\IdeaProjects\appFx\src\main\resources\styles" />
-      <recent name="C:\Users\Lukasz\IdeaProjects\appFx\src\main\resources\fxml" />
-      <recent name="C:\Users\Lukasz\IdeaProjects\appFx\src\main\java\appFx\controllers" />
-      <recent name="C:\Users\Lukasz\IdeaProjects\appFx\lib" />
-      <recent name="C:\Users\Lukasz\IdeaProjects\appFx\src\appFx\views" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.avaje.ebean.config.dbplatform" />
-    </key>
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.38381937" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="SearchEverywhereHistory" value="spellcheck" />
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="appFx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="appFx.Main" />
+      <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="appFx" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
@@ -696,26 +353,10 @@
       <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
@@ -747,8 +388,17 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -779,17 +429,8 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
@@ -851,10 +492,6 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -873,6 +510,10 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
@@ -938,12 +579,6 @@
       <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -963,260 +598,63 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="appFx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="appFx.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="appFx" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SliceManager">
-    <option name="analysisUIOptions">
-      <AnalysisUIOptions />
-    </option>
-  </component>
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
-      <created>1359379246138</created>
-      <updated>1359379246138</updated>
-      <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1381927018752" duration="145000" />
-      <workItem from="1381927223306" duration="524000" />
-      <workItem from="1381927906165" duration="330000" />
-      <workItem from="1382689995553" duration="6536000" />
-      <workItem from="1382700306485" duration="6246000" />
-      <workItem from="1382713199981" duration="19000" />
-      <workItem from="1382713406912" duration="689000" />
-      <workItem from="1382719589617" duration="335000" />
-      <workItem from="1382943920998" duration="1809000" />
-      <workItem from="1383030646739" duration="1145000" />
-      <workItem from="1383031816522" duration="3549000" />
-      <workItem from="1383038016675" duration="6792000" />
-      <workItem from="1383056384100" duration="2386000" />
-      <workItem from="1383059546244" duration="106000" />
-      <workItem from="1383059666174" duration="1433000" />
-      <workItem from="1383067970026" duration="39000" />
-      <workItem from="1383068102768" duration="100000" />
-      <workItem from="1383075501023" duration="24000" />
-      <workItem from="1383118636842" duration="8000" />
-      <workItem from="1383118671375" duration="1410000" />
-      <workItem from="1383147735364" duration="245000" />
-      <workItem from="1383148166621" duration="335000" />
-      <workItem from="1383149923499" duration="421000" />
-      <workItem from="1383161587357" duration="4646000" />
-      <workItem from="1383229565795" duration="677000" />
-      <workItem from="1383257182886" duration="177000" />
-      <workItem from="1383262892091" duration="723000" />
-      <workItem from="1383329815748" duration="1940000" />
-      <workItem from="1384867776133" duration="1001000" />
-      <workItem from="1385371656187" duration="2367000" />
-      <workItem from="1385451738735" duration="1346000" />
-      <workItem from="1385453989455" duration="12443000" />
-      <workItem from="1385627564851" duration="651000" />
-      <workItem from="1385631203513" duration="2099000" />
-      <workItem from="1385639575343" duration="418000" />
-      <workItem from="1385988364050" duration="658000" />
-      <workItem from="1385990624033" duration="29000" />
-      <workItem from="1386944812574" duration="1972000" />
-      <workItem from="1387181022586" duration="3132000" />
-      <workItem from="1387184175965" duration="7482000" />
-      <workItem from="1387196970670" duration="2688000" />
-      <workItem from="1387267902077" duration="7360000" />
-      <workItem from="1387277690214" duration="1637000" />
-      <workItem from="1387280200339" duration="8587000" />
-      <workItem from="1387291135940" duration="426000" />
-      <workItem from="1387291754244" duration="1218000" />
-      <workItem from="1387353376708" duration="9033000" />
-      <workItem from="1387371114478" duration="733000" />
-      <workItem from="1387458485352" duration="339000" />
-      <workItem from="1387458858302" duration="1199000" />
-      <workItem from="1387460638622" duration="4558000" />
-      <workItem from="1387525980029" duration="6105000" />
-      <workItem from="1387535894618" duration="9109000" />
-      <workItem from="1387791147397" duration="246000" />
-      <workItem from="1387791407246" duration="13706000" />
-      <workItem from="1387869261575" duration="206000" />
-      <workItem from="1387873710176" duration="2554000" />
-      <workItem from="1388415212368" duration="1733000" />
-      <workItem from="1388429200534" duration="21000" />
-      <workItem from="1388429285775" duration="4054000" />
-      <workItem from="1388474897699" duration="493000" />
-      <workItem from="1388490659707" duration="2063000" />
-      <workItem from="1389622006599" duration="764000" />
-      <workItem from="1389693660613" duration="82000" />
-      <workItem from="1389695094785" duration="41000" />
-      <workItem from="1389695191076" duration="372000" />
-      <workItem from="1389695724008" duration="129000" />
-      <workItem from="1389695853968" duration="2315000" />
-      <workItem from="1389699381483" duration="6084000" />
-      <workItem from="1389711095260" duration="491000" />
-      <workItem from="1389724178407" duration="5084000" />
-      <workItem from="1389777416105" duration="17800000" />
-      <workItem from="1389797228342" duration="436000" />
-      <workItem from="1389797675837" duration="154000" />
-      <workItem from="1389798063753" duration="1008000" />
-      <workItem from="1389800644645" duration="2059000" />
-      <workItem from="1389802732614" duration="392000" />
-      <workItem from="1389807242699" duration="260000" />
-      <workItem from="1389807518945" duration="12265000" />
-      <workItem from="1389855900372" duration="3493000" />
-      <workItem from="1389864095914" duration="194000" />
-      <workItem from="1389864460536" duration="2600000" />
-      <workItem from="1389867079076" duration="161000" />
-      <workItem from="1389867324388" duration="1128000" />
-      <workItem from="1389868909642" duration="10141000" />
-      <workItem from="1390595359471" duration="135000" />
-      <workItem from="1390922506317" duration="491000" />
-      <workItem from="1390997847592" duration="566000" />
-      <workItem from="1391362282756" duration="19000" />
-      <workItem from="1391362312377" duration="9758000" />
-      <workItem from="1391373929641" duration="2280000" />
-      <workItem from="1391412907960" duration="5339000" />
-      <workItem from="1391425428053" duration="1241000" />
-      <workItem from="1391439370641" duration="19000" />
-      <workItem from="1391457584349" duration="3582000" />
-      <workItem from="1391462855942" duration="408000" />
-      <workItem from="1391463280616" duration="206000" />
-      <workItem from="1391463502058" duration="201000" />
-      <workItem from="1391463721078" duration="2823000" />
-      <workItem from="1391504649447" duration="1546000" />
-      <workItem from="1391518966934" duration="496000" />
-      <workItem from="1391519479701" duration="2991000" />
-      <workItem from="1391526002702" duration="1809000" />
-      <workItem from="1391527916938" duration="127000" />
-      <workItem from="1391529523482" duration="1807000" />
-      <workItem from="1391531590521" duration="396000" />
+      <changelist id="9b222bfc-80c8-417b-8e66-906e796953e3" name="Default" comment="" />
+      <created>1391611579177</created>
+      <updated>1391611579177</updated>
+      <workItem from="1391611580967" duration="161000" />
+      <workItem from="1391611744065" duration="147000" />
     </task>
-    <task id="LOCAL-00001" summary="First commit.">
-      <created>1382719910830</created>
-      <updated>1382719910830</updated>
-    </task>
-    <task id="LOCAL-00002" summary="First commit.">
-      <created>1383032487719</created>
-      <updated>1383032487719</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Git ignore and ScenicView.">
-      <created>1383041052971</created>
-      <updated>1383041052971</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Repair bug with padding after edit cell.&#10;Repair bug with changing editing cell on TAB key press.">
-      <created>1383060905081</created>
-      <updated>1383060905081</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added Edit Form.&#10;">
-      <created>1385634966295</created>
-      <updated>1385634966295</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Change project to maven.">
-      <created>1389710271954</created>
-      <updated>1389710271954</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Ebean framework as app ORM.">
-      <created>1389795257241</created>
-      <updated>1389795257241</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Ant enhancement - Ebean.">
-      <created>1389802840917</created>
-      <updated>1389802840917</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Trying to create working javaFx bean with Ebean.&#10;">
-      <created>1389858982948</created>
-      <updated>1389858982948</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Ebean update test.">
-      <created>1389872466100</created>
-      <updated>1389872466100</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259450000" />
+    <option name="totallyTimeSpent" value="308000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2967033" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19861555" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24920128" sideWeight="0.6647982" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31758243" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18317358" sideWeight="0.7907489" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11608094" sideWeight="0.6647982" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19382322" sideWeight="0.7907489" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2857143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="745" y="400" width="1083" height="558" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3802198" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.6647982" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18461539" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30989012" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1232,16 +670,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="First commit." />
-    <MESSAGE value="Git ignore and ScenicView." />
-    <MESSAGE value="Repair bug with padding after edit cell.&#10;Repair bug with changing editing cell on TAB key press." />
-    <MESSAGE value="Added Edit Form.&#10;" />
-    <MESSAGE value="Change project to maven." />
-    <MESSAGE value="Ebean framework as app ORM." />
-    <MESSAGE value="Ant enhancement - Ebean." />
-    <MESSAGE value="Trying to create working javaFx bean with Ebean.&#10;" />
-    <MESSAGE value="Ebean update test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ebean update test." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1251,278 +679,54 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/controllers/OrmLiteController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/datasource/helpers/EditingCell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="2006" selection-end="2006" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jdbi/jdbi/2.53/jdbi-2.53-sources.jar!/org/skife/jdbi/v2/DBI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="11" selection-start="3782" selection-end="3782" vertical-scroll-proportion="0.33235294" vertical-offset="434" max-vertical-offset="6330" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="13" selection-start="2747" selection-end="2747" vertical-scroll-proportion="0.33333334" vertical-offset="534" max-vertical-offset="10410" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/javax/sql/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/1.2.7-SNAPSHOT/HikariCP-1.2.7-SNAPSHOT-sources.jar!/com/zaxxer/hikari/HikariConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="232" column="16" selection-start="6334" selection-end="6334" vertical-scroll-proportion="0.33333334" vertical-offset="2349" max-vertical-offset="5520" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/1.2.7-SNAPSHOT/HikariCP-1.2.7-SNAPSHOT-sources.jar!/com/zaxxer/hikari/HikariPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="4" selection-start="2199" selection-end="2199" vertical-scroll-proportion="0.2" vertical-offset="419" max-vertical-offset="7215" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/1.2.7-SNAPSHOT/HikariCP-1.2.7-SNAPSHOT-sources.jar!/com/zaxxer/hikari/HikariDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="25" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.37662336" vertical-offset="159" max-vertical-offset="1605" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/avaje/ebeanorm/avaje-ebeanorm/3.2.6-SNAPSHOT/avaje-ebeanorm-3.2.6-SNAPSHOT-sources.jar!/com/avaje/ebean/EbeanServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="783" column="16" selection-start="24093" selection-end="24093" vertical-scroll-proportion="15.041847" vertical-offset="1141" max-vertical-offset="17205" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/avaje/ebeanorm/avaje-ebeanorm/3.2.6-SNAPSHOT/avaje-ebeanorm-3.2.6-SNAPSHOT-sources.jar!/com/avaje/ebeaninternal/server/core/DefaultServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1609" column="27" selection-start="48296" selection-end="48296" vertical-scroll-proportion="0.4949495" vertical-offset="21707" max-vertical-offset="29160" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/beans/property/StringPropertyBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="16" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.48430493" vertical-offset="156" max-vertical-offset="825" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/sql/ResultSetMetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="17" selection-start="906" selection-end="906" vertical-scroll-proportion="0.33295712" vertical-offset="20" max-vertical-offset="3900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/datasource/mappers/MetaDataMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="451" selection-end="451" vertical-scroll-proportion="0.21582733" vertical-offset="0" max-vertical-offset="695" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/avaje/ebeanorm/avaje-ebeanorm/3.2.6-SNAPSHOT/avaje-ebeanorm-3.2.6-SNAPSHOT-sources.jar!/com/avaje/ebean/Ebean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="0" selection-start="4222" selection-end="4222" vertical-scroll-proportion="0.33333334" vertical-offset="1322" max-vertical-offset="20280" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-core/4.48/ormlite-core-4.48-sources.jar!/com/j256/ormlite/dao/Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="15" selection-start="9060" selection-end="9060" vertical-scroll-proportion="0.0" vertical-offset="2364" max-vertical-offset="11925" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-core/4.48/ormlite-core-4.48-sources.jar!/com/j256/ormlite/dao/BaseDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="351" column="0" selection-start="12423" selection-end="12423" vertical-scroll-proportion="0.0" vertical-offset="4509" max-vertical-offset="14490" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-jdbc/4.48/ormlite-jdbc-4.48-sources.jar!/com/j256/ormlite/jdbc/JdbcDatabaseConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="0" selection-start="6209" selection-end="6209" vertical-scroll-proportion="0.0" vertical-offset="2356" max-vertical-offset="4815" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-core/4.48/ormlite-core-4.48-sources.jar!/com/j256/ormlite/stmt/mapped/MappedUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="0" selection-start="3436" selection-end="3436" vertical-scroll-proportion="0.32119206" vertical-offset="1216" max-vertical-offset="2085" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-core/4.48/ormlite-core-4.48-sources.jar!/com/j256/ormlite/stmt/StatementExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="453" column="37" selection-start="16873" selection-end="16873" vertical-scroll-proportion="0.18377483" vertical-offset="6204" max-vertical-offset="10260" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="23" selection-end="468" vertical-scroll-proportion="0.049668875" vertical-offset="0" max-vertical-offset="604" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/models/SomethingOrmLite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="0.37913907" vertical-offset="41" max-vertical-offset="690">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/models/SimpleIntegerPropertyConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="61" selection-start="404" selection-end="404" vertical-scroll-proportion="0.29801324" vertical-offset="0" max-vertical-offset="604" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="613" column="22" selection-start="23004" selection-end="23004" vertical-scroll-proportion="0.33278146" vertical-offset="8649" max-vertical-offset="23670" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-core/4.48/ormlite-core-4.48-sources.jar!/com/j256/ormlite/field/types/IntegerObjectType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="26" selection-start="782" selection-end="782" vertical-scroll-proportion="0.62086093" vertical-offset="0" max-vertical-offset="1020" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-core/4.48/ormlite-core-4.48-sources.jar!/com/j256/ormlite/field/DataPersister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="17" selection-start="479" selection-end="479" vertical-scroll-proportion="-1.6572847" vertical-offset="1211" max-vertical-offset="1815" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-core/4.48/ormlite-core-4.48-sources.jar!/com/j256/ormlite/field/BaseFieldConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="206" selection-end="206" vertical-scroll-proportion="0.14900662" vertical-offset="45" max-vertical-offset="720" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-core/4.48/ormlite-core-4.48-sources.jar!/com/j256/ormlite/field/types/BaseDataType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="55" selection-start="924" selection-end="924" vertical-scroll-proportion="0.49668875" vertical-offset="0" max-vertical-offset="2370" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-core/4.48/ormlite-core-4.48-sources.jar!/com/j256/ormlite/field/FieldType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="1372" selection-end="1372" vertical-scroll-proportion="-0.1986755" vertical-offset="270" max-vertical-offset="15585" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-core/4.48/ormlite-core-4.48-sources.jar!/com/j256/ormlite/field/types/DateType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="4" selection-start="1903" selection-end="1903" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="1065" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/models/SimpleStringPropertyPresister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="29" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/models/SimpleIntegerPropertyPresister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1065" selection-end="1079" vertical-scroll-proportion="0.60264903" vertical-offset="116" max-vertical-offset="735" />
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/937b43a5/162ef3c7-dc3c-47fc-9309-1530b9ead525/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="472" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-jdbc/4.48/ormlite-jdbc-4.48-sources.jar!/com/j256/ormlite/jdbc/JdbcConnectionSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="986" selection-end="986" vertical-scroll-proportion="0.25773194" vertical-offset="0" max-vertical-offset="3660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/controllers/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="8" selection-start="2310" selection-end="2406" vertical-scroll-proportion="0.0" vertical-offset="193" max-vertical-offset="3360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/models/Something.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="12" selection-start="520" selection-end="520" vertical-scroll-proportion="0.49668875" vertical-offset="0" max-vertical-offset="604" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/models/SomethingPojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="212" selection-end="212" vertical-scroll-proportion="0.17384106" vertical-offset="0" max-vertical-offset="604" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/datasource/SqlLiteDBI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="19" selection-start="1452" selection-end="1452" vertical-scroll-proportion="1.0430464" vertical-offset="0" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jdbi/jdbi/2.53/jdbi-2.53-sources.jar!/org/skife/jdbi/v2/sqlobject/stringtemplate/UseStringTemplate3StatementLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="18" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.1986755" vertical-offset="0" max-vertical-offset="825" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jdbi/jdbi/2.53/jdbi-2.53-sources.jar!/org/skife/jdbi/v2/sqlobject/customizers/Define.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="40" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jdbi/jdbi/2.53/jdbi-2.53-sources.jar!/org/skife/jdbi/v2/sqlobject/Bind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="32" selection-start="640" selection-end="640" vertical-scroll-proportion="0.024834437" vertical-offset="0" max-vertical-offset="604" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/datasource/daos/UniversalDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="46" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.2200903" vertical-offset="0" max-vertical-offset="886" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-core/4.48/ormlite-core-4.48-sources.jar!/com/j256/ormlite/db/BaseDatabaseType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="22" selection-start="880" selection-end="880" vertical-scroll-proportion="-7.6851015" vertical-offset="7034" max-vertical-offset="7920" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/Override.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="18" selection-start="972" selection-end="972" vertical-scroll-proportion="0.4571106" vertical-offset="0" max-vertical-offset="886" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-core/4.48/ormlite-core-4.48-sources.jar!/com/j256/ormlite/db/DatabaseType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="18" selection-start="8544" selection-end="8544" vertical-scroll-proportion="0.6444695" vertical-offset="2639" max-vertical-offset="3525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/controllers/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="22" selection-start="1626" selection-end="1626" vertical-scroll-proportion="0.30586907" vertical-offset="224" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javafxdata/datafx-controller/2.0/datafx-controller-2.0-sources.jar!/org/datafx/controller/util/ViewConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="2117" selection-end="2117" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ebean.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/main.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="842" selection-end="842" vertical-scroll-proportion="0.4085603" vertical-offset="0" max-vertical-offset="514">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javafxdata/datafx-controller/2.0/datafx-controller-2.0-sources.jar!/org/datafx/controller/ViewFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="0" selection-start="9456" selection-end="9456" vertical-scroll-proportion="0.33206832" vertical-offset="2315" max-vertical-offset="6525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="29" selection-start="546" selection-end="546" vertical-scroll-proportion="0.31309298" vertical-offset="0" max-vertical-offset="527">
+        <state line="45" column="29" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1950">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="18" selection-start="6866" selection-end="6866" vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="3810">
+        <state line="156" column="26" selection-start="6587" selection-end="6587" vertical-scroll-proportion="0.8299595" vertical-offset="1930" max-vertical-offset="2790">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="886">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/datasource/helpers/EditingCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="29" selection-start="1193" selection-end="1193" vertical-scroll-proportion="-0.375" vertical-offset="675" max-vertical-offset="1950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/appFx/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/j256/ormlite/ormlite-core/4.48/ormlite-core-4.48-sources.jar!/com/j256/ormlite/dao/BaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="539" column="0" selection-start="17971" selection-end="17971" vertical-scroll-proportion="0.0" vertical-offset="7357" max-vertical-offset="14490">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/appFx/controllers/OrmLiteController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="2006" selection-end="2006" vertical-scroll-proportion="-0.45598194" vertical-offset="854" max-vertical-offset="1740">
-          <folding />
+        <state line="64" column="73" selection-start="2245" selection-end="2245" vertical-scroll-proportion="0.3326923" vertical-offset="337" max-vertical-offset="1815">
+          <folding>
+            <marker date="1391606405581" expanded="true" signature="2484:2509" placeholder="select * fro..KONTRAHENCI..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1532,12 +736,10 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>JavaFXApp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35689455" />
-                <option value="0.5" />
+                <option value="0.38381937" />
               </list>
             </option>
           </splitter-proportions>
@@ -1549,7 +751,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35689455" />
+                <option value="0.38381937" />
               </list>
             </option>
           </splitter-proportions>
@@ -1561,7 +763,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35689455" />
+                <option value="0.38381937" />
               </list>
             </option>
           </splitter-proportions>
@@ -1573,7 +775,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35689455" />
+                <option value="0.38381937" />
               </list>
             </option>
           </splitter-proportions>
@@ -1585,8 +787,20 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35689455" />
+                <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1594,21 +808,17 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.firebirdsql.jdbc:jaybird-jdk18:2.2.4</last-edited>
+          <last-edited>Maven: org.controlsfx:controlsfx:8.0.5-SNAPSHOT</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35689455" />
+                <option value="0.38381937" />
               </list>
             </option>
           </splitter-proportions>
         </settings>
       </state>
     </states>
-  </component>
-  <component name="mavenExecuteGoalHistory">
-    <option value="$PROJECT_DIR$" />
-    <option value="mvn" />
   </component>
 </project>
 

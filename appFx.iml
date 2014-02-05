@@ -11,9 +11,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="jaybird-2.2.4-javadoc" level="project" />
+    <orderEntry type="library" name="Maven: org.postgresql:postgresql:9.3-1100-jdbc41" level="project" />
     <orderEntry type="library" name="Maven: org.xerial:sqlite-jdbc:3.7.2" level="project" />
     <orderEntry type="library" name="Maven: org.firebirdsql.jdbc:jaybird-jdk18:2.2.4" level="project" />
+    <orderEntry type="library" name="Maven: javax.resource:connector-api:1.5" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr-runtime:3.4" level="project" />
     <orderEntry type="library" name="Maven: org.antlr:stringtemplate:3.0" level="project" />
     <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
     <orderEntry type="library" name="Maven: org.javafxdata:datafx-controller:2.0" level="project" />
@@ -25,9 +27,9 @@
     <orderEntry type="library" name="Maven: javax.persistence:persistence-api:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.7.5" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.5" level="project" />
-    <orderEntry type="library" name="Maven: org.avaje.ebeanorm:avaje-ebeanorm:3.2.6-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.avaje.ebeanorm:avaje-ebeanorm:3.2.5" level="project" />
     <orderEntry type="library" name="Maven: org.avaje.ebeanorm:avaje-ebeanorm-agent:3.2.2" level="project" />
-    <orderEntry type="library" name="Maven: org.controlsfx:controlsfx:8.0.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.controlsfx:controlsfx:8.0.4" level="project" />
     <orderEntry type="library" name="Maven: com.j256.ormlite:ormlite-core:4.48" level="project" />
     <orderEntry type="library" name="Maven: com.j256.ormlite:ormlite-jdbc:4.48" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />

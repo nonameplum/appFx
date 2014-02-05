@@ -53,6 +53,7 @@ public class OrmLiteController {
     Dao<SomethingOrmLite, ?> dao;
 
     JdbcPooledConnectionSource firebirdConnection;
+    JdbcPooledConnectionSource postgresqlConnection;
 
     @PostConstruct
     public void init() {
@@ -61,6 +62,10 @@ public class OrmLiteController {
 
         try {
             jdbcConnectionSource = new JdbcPooledConnectionSource(SqlLiteDBI.getConnectionUrl());
+            postgresqlConnection = new JdbcPooledConnectionSource("jdbc:postgresql://localhost/polink", "postgres", "postgre");
+
+            Dao<SomethingOrmLite, ?> liteDao = DaoManager.createDao(postgresqlConnection, SomethingOrmLite.class);
+            GenericRawResults<String[]> results = liteDao.queryRaw("select * from KONTRAHENCI");
 
 //            firebirdConnection = new JdbcPooledConnectionSource(
 //                    "jdbc:firebirdsql://cbi-sql/Dane/E_FIRMA/E_FIRMA.GDB",
